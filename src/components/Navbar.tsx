@@ -1,11 +1,11 @@
-import { 
-    House, 
-    LucideChartGantt, 
-    LucideChartNoAxesCombined, 
-    LucideCircleArrowLeft, 
-    LucideCircleUserRound 
+import {
+    House,
+    LucideChartGantt,
+    LucideChartNoAxesCombined,
+    LucideCircleArrowLeft,
+    LucideCircleUserRound
   } from "lucide-react"
-  
+
   export default function Navbar() {
       return (
           <nav className="bg-purple-700 p-6 rounded-2xl h-[calc(100vh-2rem)] flex flex-col justify-between z-50">
@@ -35,7 +35,7 @@ import {
                       </a>
                   </li>
               </ul>
-  
+
               <button className="flex gap-3 items-center p-3 text-white hover:bg-purple-600 rounded-lg transition-colors duration-300 mx-auto mb-4 w-[calc(100%-1.5rem)]">
                   <LucideCircleArrowLeft className="w-6 h-6" />
                   <span>Sair</span>
