@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        primary: "var(--color-primary)"
+        primary: "var(--background-primary)"
       },
       fontFamily: {
         'comfortaa': ["Comfortaa", "sans-serif"],

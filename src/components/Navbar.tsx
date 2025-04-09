@@ -8,7 +8,7 @@ import {
 
   export default function Navbar() {
       return (
-          <nav className="bg-[#4b245b] p-6 rounded-2xl h-[calc(100vh-2rem)] flex flex-col justify-between z-50">
+          <nav className="bg-primary p-6 rounded-2xl h-[calc(100vh-2rem)] flex flex-col justify-between z-50">
               <ul className="space-y-4 text-white font-comfortaa">
                   <li>
                       <a href="Perfil" className="flex gap-3 items-center p-3 hover:bg-[#a76fad] rounded-lg transition-colors duration-300">
