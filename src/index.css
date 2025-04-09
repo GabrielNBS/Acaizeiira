@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+<<<<<<< HEAD
+=======
 
 :root{
   --color-primary: #4c2158; 
@@ -19,3 +21,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+>>>>>>> 54ee30d0888bcad3684ab4e710b6e201ccdf6d1e

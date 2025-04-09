@@ -1,12 +1,20 @@
+<<<<<<< HEAD
+import React from 'react'
+=======
 import React, { useState } from 'react';
 import { Menu, X, AlertCircle, Activity, TrendingUp } from 'lucide-react';
 import Navbar from './components/Navbar';
 import PieChartExample from './components/PieChart';
+>>>>>>> 54ee30d0888bcad3684ab4e710b6e201ccdf6d1e
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
+<<<<<<< HEAD
+    <div className=''>
+
+=======
     <div className="h-screen w-screen grid md:grid-cols-6 md:grid-rows-12 gap-4 p-4 bg-slate-50">
       {/* Mobile Menu Button */}
       <button
@@ -109,8 +117,13 @@ function App() {
           </ul>
         </div>
       </div>
+>>>>>>> 54ee30d0888bcad3684ab4e710b6e201ccdf6d1e
     </div>
-  );
+  )
 }
 
+<<<<<<< HEAD
+export default App
+=======
 export default App;
+>>>>>>> 54ee30d0888bcad3684ab4e710b6e201ccdf6d1e
