@@ -13,7 +13,7 @@ const data = {
     {
       data: [200, 130, 100],
     // Gráficos
-      backgroundColor: ["#60A5FA", "#2DD4BF", "#F472B6"]
+      backgroundColor: ["#4c2158", "#773d80", "#a76fad"]
     }
   ]
 };
@@ -50,8 +50,8 @@ const PieChartWithRightLegend = () => {
     <div style={{ 
       position: 'relative', 
       width: '100%',
-      minHeight: '400px',
-      maxWidth: '800px',
+      minHeight: '300px',
+      maxWidth: '700px',
       margin: '0 auto'
     }}>
       <Pie data={data} options={options} />
